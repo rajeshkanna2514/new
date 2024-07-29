@@ -21,7 +21,7 @@ def get_tokens_for_user(user):
         'access': str(refresh.access_token),
     }
 
-# Create your views here.
+
 class RegisterView(APIView):
 
     def post(self,request,format=None):
